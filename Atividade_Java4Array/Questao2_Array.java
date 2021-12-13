@@ -29,7 +29,7 @@ public class Questao2_Array {
 			
 				somaPar+=a[x];
 			}
-		else if(num % 3 == 0 )
+		else if(num %2 != 0 )
 		{
 			numImp++;
 		}
@@ -51,7 +51,7 @@ public class Questao2_Array {
 		
 		for(x=0;x<6;x++) 
 		{
-			if(a[x]%2!=0)
+			if(a[x]%2 !=0)
 			{
 				System.out.println(a[x]);
 			}
