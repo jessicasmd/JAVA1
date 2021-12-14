@@ -64,7 +64,7 @@ public class Questao4_Array {
 				break;
 			case 3:
 				System.out.println("Digite o valor da constante: ");
-				constante=leia.nextInt();
+				constante =leia.nextInt();
 				for (linha=0;linha<2;linha++)
 				{
 					for(coluna=0;coluna<2;coluna++)
