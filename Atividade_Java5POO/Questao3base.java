@@ -4,6 +4,7 @@ public class Questao3base {
 
 	private String nomedoProduto;
 	private float valordoProduto;
+	private String op;
 	
 	public Questao3base (String nomedoProduto,String valordoProduto)
 	{
@@ -13,7 +14,8 @@ public class Questao3base {
 	public void imprimirInfo()
 	{
 		System.out.println("\nO produto escolhido foi: "+nomedoProduto+
-							"\nque possui o valor: "+valordoProduto);
+							"\nque possui o valor: "+valordoProduto+
+							"nSua escolha foi: "+op);
 	}
 	public String getNomedoProduto() {
 		return nomedoProduto;
@@ -27,6 +29,11 @@ public class Questao3base {
 	public void setValordoProduto(float valordoProduto) {
 		this.valordoProduto = valordoProduto;
 	}
-	
-	
+	public String getOp() {
+		return op;
+	}
+	public void setOp(String op) {
+		this.op = op;
+	}
+		
 }
