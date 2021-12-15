@@ -22,8 +22,9 @@ public class Questao1base {
 		
 		public void imprimirInfo()
 		{
-			System.out.println("\n Nome:  "+nome+"\nIdade  "+idade+"\nSom: "+som+"\nSubiu quantas árvores: "+subir+, "\nCorreu quanto km: "+correr);
-
+			System.out.println("\n Nome:  "+nome+"\nIdade  "+idade+"\nSom: "+som+
+					"\nSubiu quantas árvores: "+subir+ "\nCorreu quanto km: "+correr);
+		}
 			
 		public String getNome() {
 			return nome;
@@ -63,7 +64,7 @@ public class Questao1base {
 
 		public void setCorrer(int correr) {
 			this.correr = correr;
-		}
+		
 		
 	}
 }
