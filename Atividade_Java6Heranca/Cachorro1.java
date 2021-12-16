@@ -1,10 +1,10 @@
 package Atividade_Java6Heranca;
 
-public class Cachorro extends Questao1base {
+public class Cachorro1 extends Questao1base {
 	
 	private boolean  correr;
 	
-	public Cachorro(String nome, String idade, String som,  boolean correr) 
+	public Cachorro1(String nome, String idade, String som,  boolean correr) 
 	{
 	super(nome,idade,som);
 	this.correr = correr;

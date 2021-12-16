@@ -1,10 +1,10 @@
 package Atividade_Java6Heranca;
 
-public class Preguica extends Questao1base {
+public class Preguica1 extends Questao1base {
 	
 	private boolean subir;
 	
-	public Preguica (String nome, String idade, String som, boolean  subir) 
+	public Preguica1 (String nome, String idade, String som, boolean  subir) 
 	{
 		super(nome,idade,som);
 		this.subir = subir;

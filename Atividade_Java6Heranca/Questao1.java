@@ -8,15 +8,15 @@ public  class  Questao1 {
 	public  static  void  main ( String [] args ) {
 		// TODO stub do método gerado automaticamente
 		
-		Cachorro cachorro = new Cachorro ("Amora", "1", "Au au au",true);
+		Cachorro1 cachorro = new Cachorro1 ("Amora", "1", "Au au au",true);
 		cachorro.imprimirInfo();
 		cachorro.imprimirMovimento();
 				
-		Cavalo cavalo =  new  Cavalo ( "Coragem", "5", " Riririri ",true);
+		Cavalo1 cavalo =  new  Cavalo1 ( "Coragem", "5", " Riririri ",true);
 		cavalo.imprimirInfo();
 		cavalo.imprimirMovimento();
 			
-		Preguica preguica =  new Preguica( "Lebre ", "10 ", " Zizizizizi ",true);
+		Preguica1 preguica =  new Preguica1( "Lebre ", "10 ", " Zizizizizi ",true);
 		preguica.imprimirInfo();
 		preguica.imprimirMovimento();
 		
