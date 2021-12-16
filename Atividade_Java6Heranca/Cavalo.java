@@ -1,27 +1,35 @@
 package Atividade_Java6Heranca;
 
 public class Cavalo extends Questao1base{
-	private String correr;
 	
-	public Cavalo (String nome, int idade, String som, String correr) 
+	private boolean  correr;
+	
+	public Cavalo (String nome, String idade, String som, boolean correr) 
 	{
-		super(nome, idade, som);
+		super(nome,idade,som);
 		this.correr = correr;
 	}
-
-	public String getCorrer() {
+	
+	public boolean isCorrer() {
 		return correr;
 	}
-
-	public void setCorrer(String correr) {
+		
+	public void setCorrer(boolean correr) {
 		this.correr = correr;
 	}
-	
+
 	public void imprimirInfo()
 	{
-		System.out.println("\n*****DADOS DO CAVALO*****\n Nome: "+getNome()+"\n Idade: "+getIdade()+"\n Som: "+getSom()+" \n "+getCorrer());
+		System.out.println("\n*****DADOS DO CAVALO*****\n Nome: "+getNome()+"\n Idade: "+getIdade()+"\n Som: "+getSom());
 		
+	}
+	public void imprimirMovimento()
+	{
+		if(isCorrer()==true) 
+		{
+			System.out.println("\nFaz competição de corrida!!");
+		}
 	}
 }
 
-}
+
