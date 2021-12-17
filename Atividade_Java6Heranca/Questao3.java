@@ -77,11 +77,11 @@ public class Questao3 {
 				break;
 				
 			case 4:
-				System.out.println("\nMostrar os produtos do estoqe");
+				System.out.println("\nMostrar os produtos do estoque");
 				System.out.println(estoque);
 				break;
 				default:
-					System.out.println("\nFinalizou o programa.");
+					System.out.println("\nPrograma finalizado.");
 				
 			}
 			
