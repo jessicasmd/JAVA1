@@ -4,9 +4,9 @@ public class Cachorro2 extends Questao2base {
 	
 	private boolean  correr;
 	
-	public Cachorro2(String nome, String idade, String som,  boolean correr) 
+	public Cachorro2(String nome, String idade,  boolean correr) 
 	{
-	super(nome,idade,som);
+	super(nome,idade);
 	this.correr = correr;
 	}
 	
@@ -29,5 +29,9 @@ public class Cachorro2 extends Questao2base {
 		{
 			System.out.println("Gosta de brincar de correr");
 		}
+	}
+	
+	public  String  getSom () {
+		return ( " Som: " + super . getSom ());
 	}
 }

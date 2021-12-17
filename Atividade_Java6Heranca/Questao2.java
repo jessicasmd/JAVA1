@@ -19,7 +19,16 @@ public class Questao2 {
 		preguica.imprimirMovimento();
 		
 	}
-
+	
+	Questao2base [] animais =  nova  Questao2base[ 3 ];
+	animais [ 0 ] = cachorro;
+	animais [ 1 ] = cavalo;
+	animais [ 2 ] = preguiça;
+	
+	void para (Questao2base animal : animais) {
+		Sistema . para fora . println (animal . getSom ());
+	}
+}
 		
 }
 

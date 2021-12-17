@@ -4,9 +4,9 @@ public class Cavalo2 extends Questao2base{
 	
 	private boolean  correr;
 	
-	public Cavalo2 (String nome, String idade, String som, boolean correr) 
+	public Cavalo2 (String nome, String idade,  boolean correr) 
 	{
-		super(nome,idade,som);
+		super(nome,idade);
 		this.correr = correr;
 	}
 	
@@ -20,7 +20,7 @@ public class Cavalo2 extends Questao2base{
 
 	public void imprimirInfo()
 	{
-		System.out.println("\n*****DADOS DO CAVALO*****\n Nome: "+getNome()+"\n Idade: "+getIdade()+"\n Som: "+getSom());
+		System.out.println("\n*****DADOS DO CAVALO*****\n Nome: "+getNome()+"\n Idade: "+getIdade());
 		
 	}
 	public void imprimirMovimento()
@@ -28,7 +28,14 @@ public class Cavalo2 extends Questao2base{
 		if(isCorrer()==true) 
 		{
 			System.out.println("\nFaz competição de corrida!!");
+			
 		}
+		
+	}
+	
+	public String getSom()
+	{
+		return ( "Som: " +super.getSom());
 	}
 }
 

@@ -4,24 +4,24 @@ public class Questao2base {
 	
 		private String nome;
 		private String idade;
-		private String som;
+		
 		
 			
 		
-		public Questao2base (String nome, String idade, String som)
+		public Questao2base (String nome, String idade)
 		
 		{
 			this.nome=nome;
 			this.idade=idade;
-			this.som=som;
+			
 			
 		}
 		
 		public void imprimirInfo()
 		{
-			System.out.println("\n Nome:  "+nome+"\nIdade  "+idade+"\nSom: "+som);
+			System.out.println("\n Nome:  "+nome+"\nIdade  "+idade);
 		}
-			
+
 		public String getNome() {
 			return nome;
 		}
@@ -37,13 +37,6 @@ public class Questao2base {
 		public void setIdade(String idade) {
 			this.idade = idade;
 		}
-
-		public String getSom() {
-			return som;
-		}
-
-		public void setSom(String som) {
-			this.som = som;
-		}
-		
+			
+			
 	}
